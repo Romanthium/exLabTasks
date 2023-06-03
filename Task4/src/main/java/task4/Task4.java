@@ -36,7 +36,7 @@ public class Task4 {
         scanner.close();
     }
 
-    private static int[][] generateRandomMatrix(int size) {
+    static int[][] generateRandomMatrix(int size) {
         int[][] array = new int[size][size];
         Random random = new Random();
 
