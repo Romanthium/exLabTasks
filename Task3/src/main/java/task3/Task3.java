@@ -36,7 +36,7 @@ public class Task3 {
         scanner.close();
     }
 
-    private static int[] generateArray(int size) {
+    static int[] generateArray(int size) {
         int[] array = new int[size];
         Random random = new Random();
 
