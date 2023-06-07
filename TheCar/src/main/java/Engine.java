@@ -7,15 +7,15 @@ public class Engine {
         this.volume = volume;
     }
 
-    private boolean isOn;
+    private boolean on;
 
 
     public boolean isOn() {
-        return isOn;
+        return on;
     }
 
-    public void setIsOn(boolean isOn) {
-        this.isOn = isOn;
+    public void setOn(boolean on) {
+        this.on = on;
     }
 
     public String getVin() {

@@ -17,13 +17,13 @@ public class Car {
             System.out.println("Not enough fuel to start");
         } else {
             System.out.println("Engine has started");
-            engine.setIsOn(true);
+            engine.setOn(true);
         }
     }
 
     public void stopEngine() {
         System.out.println("Engine has stopped");
-        engine.setIsOn(false);
+        engine.setOn(false);
     }
 
     private boolean isFuelEnough() {
