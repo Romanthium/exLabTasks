@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit City Info</title>
+</head>
+<body>
+<form th:method="patch" th:action="@{/cities/{id}(id=${city.getId()})}" th:object="${city}">
+    <div>
+        <label for="name">City Name</label>
+        <input id="name" placeholder="Enter City Name" required th:field="*{name}" type="text"/>
+    </div>
+    <div>
+        <label for="info">City Info</label>
+        <textarea id="info" placeholder="Enter City Info" required th:field="*{info}"></textarea>
+    </div>
+    <input type="submit" value="Update city">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>

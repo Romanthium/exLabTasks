@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Cities Information</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>#</th>
+        <th>City Name</th>
+        <th>City Information</th>
+    </tr>
+    <tr th:if="${#lists.isEmpty(cities)}">
+        <td colspan="7">No Records found. Add some...!</td>
+    </tr>
+    <tr th:each="city, iter : ${cities}">
+        <td th:text="${iter.index}+1"></td>
+        <td th:text="${city.getName}"></td>
+        <td th:text="${city.getInfo()}"></td>
+        <td>
+            <form th:action="@{/cities/{id}/edit(id=${city.getId()})}">
+                <input type="submit" value="Edit"/>
+            </form>
+        </td>
+        <td>
+            <form th:method="delete" th:action="@{/cities/{id}(id=${city.getId()})}">
+                <div>
+                    <input type="submit" value="Delete"/>
+                </div>
+            </form>
+        </td>
+    </tr>
+</table>
+<div>
+    <a th:href="@{cities/new}">Add new City</a>
+</div>
+</body>
+</html>

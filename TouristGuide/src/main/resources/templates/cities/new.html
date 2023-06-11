@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new City Info</title>
+</head>
+<body>
+<form th:method="post" th:action="@{/cities}" th:object="${city}">
+    <div>
+        <label for="name">City Name</label>
+        <input id="name" placeholder="Enter City Name" required th:field="*{name}" type="text"/>
+    </div>
+
+    <div>
+        <label for="info">City Info</label>
+        <textarea id="info" placeholder="Enter City Info" required th:field="*{info}"></textarea>
+    </div>
+    <input type="submit" value="Create city">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
