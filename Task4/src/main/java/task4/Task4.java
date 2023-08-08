@@ -4,10 +4,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 /*
-4.	Создаём квадратную матрицу, размер вводим с клавиатуры.
-Заполняем случайными числами в диапазоне от 0 до 50. И выводим на консоль(в виде матрицы).
-Далее необходимо транспонировать матрицу(1 столбец станет 1-й строкой, 2-й столбец - 2-й строкой и т. д.)
-Пример:
+4.	Create a square matrix, enter the size from the keyboard.
+Fill it with random numbers in the range from 0 to 50. And output to the console (as a matrix).
+Next, we need to transpose the matrix (1 column will become the 1st row, 2nd column will become the 2nd row, etc.).
+Example:
           1 2 3 4      1 6 3 1
           6 7 8 9      2 7 3 5
           3 3 4 5      3 8 4 6
