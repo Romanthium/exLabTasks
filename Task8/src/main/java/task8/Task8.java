@@ -3,9 +3,9 @@ package task8;
 import java.util.stream.IntStream;
 
 /*
-8.	В Григорианском календаре год является високосным в двух случаях: либо он кратен 4, но при этом не кратен 100,
-либо кратен 400. Реализуйте метод, вычисляющий количество високосных лет с начала нашей эры (первого года)
-до заданного года включительно.
+8.	In the Gregorian calendar, a year is a leap year in two cases: either it is a multiple of 4 but not a multiple of 100,
+or it is divisible by 400. Implement a method that calculates the number of leap years from the beginning of our era (the first year)
+up to and including the given year.
  */
 public class Task8 {
     public static void main(String[] args) {
