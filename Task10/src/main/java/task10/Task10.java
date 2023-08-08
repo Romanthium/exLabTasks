@@ -1,13 +1,13 @@
 package task10;
 
 /*
-Напишите программу на Java, чтобы сложить два двоичных числа. Перейти к редактору
-Входные данные:
-Введите первое двоичное число: 10
-Введите второе двоичное число: 11
-Ожидаемый результат:
+10. Write a program to add two binary numbers together.
+Input Data:
+Enter the first binary number: 10
+Enter the second binary number: 11
 
-Сумма двух двоичных чисел: 101
+Expected result:
+Sum of two binary numbers: 101
  */
 
 import java.util.Scanner;
