@@ -1,8 +1,8 @@
 package task1;
 
 /*
-1.	Напишите метод, который принимает в качестве параметра целое число и возвращает значение true,
-если оно - симметричное (палиндром - как, например, число 53477435); в ином случае метод возвращает значение false
+1.	Write a method that takes an integer as a parameter and returns true,
+if it is symmetric (a palindrome, such as the number 53477435); otherwise, the method returns false
  */
 public class Task1 {
     public static boolean isNumberPalindrome(int number) {
