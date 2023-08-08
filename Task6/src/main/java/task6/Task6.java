@@ -1,8 +1,8 @@
 package task6;
 
 /*
-6.	Напишите реализацию метода summ(int a, int b), вычисляющий a*b, не пользуясь операцией умножения,
-где a и b целые числа, вызовите метод summ  в методе main и распечатайте на консоль.
+6.	Write an implementation of the summ(int a, int b) method that calculates a*b without using the multiplication operation,
+where a and b are integers, call the summ method in the main method and print it to the console.
  */
 
 public class Task6 {
