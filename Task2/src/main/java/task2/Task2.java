@@ -1,9 +1,8 @@
 package task2;
 
 /*
-2.	Напишите метод, который принимает в качестве параметра положительное целое число
-и возвращает число с противоположным порядком цифр.
-Например, для параметра 123 метод возвратит 321, для параметра 120 метод вернет 21.
+2.	Write a method that accepts a positive integer as a parameter and returns a number with the opposite order of digits.
+For example, for 123 the method will return 321, for 120 the method will return 21.
  */
 
 public class Task2 {
