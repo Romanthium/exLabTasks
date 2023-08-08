@@ -4,12 +4,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 /*
-3.	Напишите класс, который заполняет случайными трехзначными числами массив,
-размер которого при инициализации вводится с клавиатуры. После заполнения класс
-должен вывести на экран значения массива следующим образом:
-• в первой строке - первую половину массива;
-• во второй строке - вторую половину массива.
-В случае если массив имеет нечетный размер, центральную ячейку следует выводить в первой строке.
+3. Write a class that fills an array with random three-digit numbers, the size of which is entered from the keyboard
+during initialization. After filling the array, the class should display the array values on the screen as follows:
+- in the first line - the first half of the array;
+- in the second line - the second half of the array.
+If the array has an odd size, the center cell should be displayed in the first line.
  */
 public class Task3 {
 
