@@ -1,7 +1,7 @@
 package task7;
 
 /*
-Дан двухмерный массив размерностью 4 на 4, необходимо нарисовать четыре треугольника вида
+7. A two-dimensional array of dimension 4 by 4 is given, draw four triangles of the form:
 
      a)                  b)
              *        *
