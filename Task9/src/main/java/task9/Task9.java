@@ -1,10 +1,10 @@
 package task9;
 
 /*
-Напишите программу на Java, которая принимает число в качестве входных данных и печатает свою таблицу умножения до 10.
-Тестовые данные:
-Введите число: 8
-Ожидаемый результат :
+9. Write a program that takes a number as an input and prints its multiplication table to 10.
+Test Data:
+Input a number : 8
+Expected result :
 8 х 1 = 8
 8 х 2 = 16
 8 х 3 = 24
